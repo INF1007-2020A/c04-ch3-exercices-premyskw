@@ -5,7 +5,7 @@
 import math
 
 def square_root(a: float) -> float:
-    return sqrt(a)
+    return math.sqrt(a)
 
 
 def square(a: float) -> float:
@@ -17,9 +17,7 @@ def average(a: float, b: float, c: float) -> float:
 
 
 def to_radians(angle_degs: float, angle_mins: float, angle_secs: float) -> float:
-    degs = angle_degs + (angle_mins + angle_secs/60)/60
-    rad = degs*3.14/180
-    return rad
+    return math.radians(angle_degs + (angle_mins + (angle_secs / 60)) / 60)
 
 
 def to_degrees(angle_rads: float) -> tuple:
