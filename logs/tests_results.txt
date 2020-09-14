@@ -1,42 +1,12 @@
 test_average (__main__.TestExercice) ... ok
 test_square (__main__.TestExercice) ... ok
-test_square_root (__main__.TestExercice) ... ERROR
+test_square_root (__main__.TestExercice) ... ok
 test_to_celsius (__main__.TestExercice) ... ok
 test_to_degrees (__main__.TestExercice) ... ok
 test_to_farenheit (__main__.TestExercice) ... ok
-test_to_radians (__main__.TestExercice) ... FAIL
-
-======================================================================
-ERROR: test_square_root (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 16, in test_square_root
-    output = [exercice.square_root(v) for v in values]
-  File "test_exercice.py", line 16, in <listcomp>
-    output = [exercice.square_root(v) for v in values]
-  File "/home/runner/work/c04-ch3-exercices-premyskw/c04-ch3-exercices-premyskw/exercice.py", line 8, in square_root
-    return sqrt(a)
-NameError: name 'sqrt' is not defined
-
-======================================================================
-FAIL: test_to_radians (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 67, in test_to_radians
-    'Mauvais calcul de degres -> radians'
-AssertionError: Lists differ: [-0.08664074074074074, 0.17589330246913581, 6.280[28 chars]5935] != [-0.08668468618238503, 0.17598251810595048, 6.283[25 chars]2748]
-
-First differing element 0:
--0.08664074074074074
--0.08668468618238503
-
-+ [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748]
-- [-0.08664074074074074,
--  0.17589330246913581,
--  6.280305277777778,
--  6.9937975925925935] : Mauvais calcul de degres -> radians
+test_to_radians (__main__.TestExercice) ... ok
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.001s
+Ran 7 tests in 0.000s
 
-FAILED (failures=1, errors=1)
+OK
