@@ -1,5 +1,19 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod-redirect-0.herokuapp.com/)
 
+
+## Résultats
+Score | Critères
+--- | ---
+0/1 | Calcul de la moyenne de 3 nombres
+0/1 | Calcul du carré
+0/1 | Calcul de la racine carré
+0/1 | Conversion Farenheit -> Celsius
+0/1 | Conversion radians -> degrés
+0/1 | Conversion Celsius -> Farenheit
+0/1 | Conversion degrés -> radians
+0/7 | **Total**
+
+[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 3)
 
 Avant de commencer. Consulter les instructions à suivre dans [instructions.md](instructions.md)
